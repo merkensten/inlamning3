@@ -1,0 +1,23 @@
+.navBarContainer {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  border-bottom: 1px solid grey;
+}
+
+.logo {
+  padding: 10px 20px;
+}
+
+.signIn {
+  grid-column: 9/10;
+  align-self: center;
+}
+
+.logo, .signIn {
+    cursor: pointer;
+}
+
+.profile {
+  grid-column: 9/10;
+  align-self: center;
+}

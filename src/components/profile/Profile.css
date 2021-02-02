@@ -1,0 +1,13 @@
+.profileContainer {
+    display: flex;
+    align-items: center;
+}
+
+.userImg {
+    width: 20px;
+    padding-right: 10px;
+}
+
+.userDisplay {
+    margin-top: 5px;
+}
